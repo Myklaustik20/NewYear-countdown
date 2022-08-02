@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Lato&family=Poppins&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@400;500&family=Tiro+Gurmukhi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Roboto Serif', serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(./image/moonlight.jpg) no-repeat center center/cover;
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    line-height: 2;
+    padding-top: 7px;
+}
+
+#countdown {
+    background-color: rgba(0,0,0,.3);
+    padding: 20px;
+    font-size: 45px;
+    color: white;
+    border: 5px;
+}
